@@ -1,8 +1,6 @@
 package poly.ex6_abstract_and_interface;
 
 
-import poly.ex5_interface.InterfaceAnimal;
-
 public class SoundFlyMain {
 
     public static void main(String[] args) {
@@ -13,7 +11,7 @@ public class SoundFlyMain {
         soundAnimal(dog);
         soundAnimal(bird);
         soundAnimal(chicken);
-        
+
         flyAnimal(bird);
         flyAnimal(chicken);
     }
